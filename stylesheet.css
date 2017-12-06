@@ -1,0 +1,95 @@
+html {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+body {
+    padding: 0;
+    margin: 0;
+	background-image: url(background.jpg);
+	background-size: cover;
+	min-height: 100%;
+	min-width: 1024px;
+	width: 100%;
+	height: auto;
+	top: 0;
+	left: 0;
+}
+.bannerimg {
+	width: 100%;
+}
+h1 {
+	text-decoration: underline;
+}
+.text {
+	margin-left: auto;
+    margin-right: auto;
+    width: 50rem;
+	border-left: 4px solid #222;
+	border-right: 4px solid #222;
+    background-image: url(textbg.jpg);
+	padding-right: 20px;
+	padding-left: 20px;
+	text-align: left;
+}
+.text h1 {
+	text-align: center;
+}
+.header{
+	width: 100%;
+}
+#nav {
+    background-color: #222;
+	top: 20%;
+	
+}
+#nav_wrapper {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+#nav ul li {
+    display: inline-block;
+	text-align: left;
+}
+#nav ul li:hover {
+    background-color: #333;
+}
+#nav ul li a, visited {
+    color: #CCC;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+#nav ul li:hover ul {
+    display: block;
+}
+#nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    border: 5px solid #222;
+    border-top: 0;
+    margin-left: -5px;
+	min-width: 200px;
+	/* add min-width to change width */
+}
+#nav ul ul li {
+    display: block;
+}
+#nav ul ul li a:hover {
+    color: #699;
+}
+/* image code: background-image: url="./images/background.jpg";
+	background-size: cover;
+	min-height: 100%;
+	min-width: 1024px;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0; */
